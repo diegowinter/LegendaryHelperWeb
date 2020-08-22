@@ -27,7 +27,7 @@
 			<h3>Conecte sua conta do Spotify e controle a reprodução através de comandos direto no seu
 			servidor no Discord!</h3>
 			<button onclick="location.href='https://accounts.spotify.com/pt-BR/authorize?client_id=28869d92fb98412690edc8314975f690&response_type=code&redirect_uri=http:%2F%2Flocalhost:8080%2FLegendaryHelperWeb%2Fspotify%2Fconfirm&state=<%=request.getParameter("user_id")%>&scope=user-modify-playback-state'"
-				class="button">CONECTAR SPOTIFY</button>
+				class="button">Conectar Spotify</button>
 		</c:if>
 		<c:if test="${(param.user_id == null)}">
 			<c:if test="${(param.status == 'success')}">
