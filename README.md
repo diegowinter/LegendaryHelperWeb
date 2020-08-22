@@ -1,0 +1,2 @@
+# LegendaryHelperWeb
+LegendaryHelper web functionalities.
