@@ -24,9 +24,9 @@
 				 <p class="plus">+</p>
 				 <h2>LegendaryHelper</h2>
 			</div>
-			<h3>Conecte sua conta do Spotify e controle a reprodução através de comandos direto no seu
+			<h3>Conecte sua conta do Spotify e controle a reproduÃ§Ã£o atravÃ©s de comandos direto no seu
 			servidor no Discord!</h3>
-			<button onclick="location.href='https://accounts.spotify.com/pt-BR/authorize?client_id=28869d92fb98412690edc8314975f690&response_type=code&redirect_uri=https:%2F%2Flegendaryhelper.xyz%2Fspotify%2Fconfirm&state=<%=request.getParameter("user_id")%>&scope=user-modify-playback-state%20user-read-playback-state%20user-read-currently-playing'"
+			<button onclick="location.href='https://accounts.spotify.com/pt-BR/authorize?client_id=28869d92fb98412690edc8314975f690&response_type=code&redirect_uri=https:%2F%2Flegendaryhelper.xyz%2Fspotify%2Fconfirm&state=<%=request.getParameter("user_id")%>&scope=user-modify-playback-state%20user-read-playback-state%20user-read-currently-playing%20playlist-modify-public%20ugc-image-upload'"
 				class="button">Conectar Spotify</button>
 		</c:if>
 		<c:if test="${(param.user_id == null)}">
@@ -50,7 +50,7 @@
 	</div>
 </div>
 <div class="footer">
-	<p>©2020 DiegoWinter.dev</p>
+	<p>Â©2020 DiegoWinter.dev</p>
 </div>
 </body>
 </html>
